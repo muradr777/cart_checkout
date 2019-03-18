@@ -31,7 +31,6 @@ btnSelectTrigger.on("click", function() {
       $("#selected-prod-ids span").text("");
     }
   });
-  console.log(ids);
 });
 
 function getSum(total, num) {
