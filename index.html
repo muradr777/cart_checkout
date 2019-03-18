@@ -21,18 +21,18 @@
   </head>
   <body>
     <div class="wrapper container">
-      <h2 class="mb-2">Cart System</h2>
+      <h2 class="my-4">Cart System</h2>
       <div class="products-item-list">
         <div class="products-item-list__row header-row">
           <div class="row">
             <div class="col-sm-8">
               <div class="product-col-questions">
-                Вопросы
+                Product
               </div>
             </div>
             <div class="col-sm-4">
               <div class="product-col-price">
-                Цена Вопросов
+                Price
               </div>
             </div>
           </div>
@@ -164,7 +164,7 @@
                     data-id="12312"
                     data-active="Selected"
                   >
-                    Куплено
+                    Disabled
                   </button>
                 </div>
               </div>
@@ -182,11 +182,14 @@
           </div>
           <div class="total-price-buy__btn">
             <button type="button" class="btn btn-outline-success--cust">
-              Купить
+              Buy
             </button>
-            <input id="selected-prod-ids" type="text" class="d-none" />
           </div>
         </form>
+      </div>
+      <div id="selected-prod-ids" class="alert alert-default p-2 mt-3">
+        Selected prods IDs:
+        <span></span>
       </div>
     </div>
     <script

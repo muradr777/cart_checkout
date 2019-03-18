@@ -225,6 +225,9 @@
 }
 
 /* Custom */
+.btn:focus {
+  box-shadow: none;
+}
 .disabled .product-col-price .btn-product-select {
   color: #ffffff;
 }

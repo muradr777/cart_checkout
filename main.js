@@ -26,11 +26,12 @@ btnSelectTrigger.on("click", function() {
     }
 
     if (ids.length > 0) {
-      $("#selected-prod-ids").val(ids.reduce(getIds));
+      $("#selected-prod-ids span").text(ids.reduce(getIds));
     } else {
-      $("#selected-prod-ids").val("");
+      $("#selected-prod-ids span").text("");
     }
   });
+  console.log(ids);
 });
 
 function getSum(total, num) {
